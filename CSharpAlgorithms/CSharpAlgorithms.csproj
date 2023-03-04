@@ -13,4 +13,10 @@
     <Folder Include="Codility\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="filetest.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAlgorithms", "CSharpAlgorithms\CSharpAlgorithms.csproj", "{EA7A00EE-C0FF-49CC-A631-E75C74E41CB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAlgorithms", "CSharpAlgorithms\CSharpAlgorithms.csproj", "{EA7A00EE-C0FF-49CC-A631-E75C74E41CB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Fundamentals", "Algorithms.Fundamentals\Algorithms.Fundamentals.csproj", "{C78A43E3-54AE-4429-8645-0CB66A3EBFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.CommandLine", "Algorithms.CommandLine\Algorithms.CommandLine.csproj", "{7620F0CE-34B8-4033-9EE9-2ABC9D5D040D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{EA7A00EE-C0FF-49CC-A631-E75C74E41CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA7A00EE-C0FF-49CC-A631-E75C74E41CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA7A00EE-C0FF-49CC-A631-E75C74E41CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78A43E3-54AE-4429-8645-0CB66A3EBFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78A43E3-54AE-4429-8645-0CB66A3EBFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78A43E3-54AE-4429-8645-0CB66A3EBFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78A43E3-54AE-4429-8645-0CB66A3EBFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7620F0CE-34B8-4033-9EE9-2ABC9D5D040D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7620F0CE-34B8-4033-9EE9-2ABC9D5D040D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7620F0CE-34B8-4033-9EE9-2ABC9D5D040D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7620F0CE-34B8-4033-9EE9-2ABC9D5D040D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

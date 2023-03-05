@@ -60,8 +60,8 @@ namespace Algorithms.Fundamentals.Chapter13
             public ReverseArrayIterator(Item?[] a, int N)
             {
                 _a = a;
-                _i = N - 1;
-                _current = _a[_i];
+                _i = N ;
+                _current = default(Item);
             }
 
             public void Dispose()

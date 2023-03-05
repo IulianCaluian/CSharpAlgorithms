@@ -9,8 +9,8 @@ namespace Algorithms.Fundamentals.Chapter13
     {
         public static void MainExecute(String[] args)
         {
-            ResizingArrayStack<String> ops = new ResizingArrayStack<String>();
-            ResizingArrayStack<Double> vals = new ResizingArrayStack<Double>();
+            Stack<String> ops = new Stack<String>();
+            Stack<Double> vals = new Stack<Double>();
             do
             {
                 string? s = Console.ReadLine();

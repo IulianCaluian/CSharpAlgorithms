@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithms.Fundamentals
+namespace Algorithms.Fundamentals.Chapter12
 {
     public class Flips
     {
-        public static void MainExecute(String[] args)
+        public static void MainExecute(string[] args)
         {
-            int T = Int32.Parse(args[0]);
+            int T = int.Parse(args[0]);
             Counter heads = new Counter("heads");
             Counter tails = new Counter("tails");
 

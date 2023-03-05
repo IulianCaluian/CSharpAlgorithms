@@ -1,4 +1,5 @@
-﻿using Algorithms.Fundamentals;
+﻿using Algorithms.Fundamentals.Chapter12;
+using Algorithms.Fundamentals.Chapter13;
 
 internal class Program
 {
@@ -6,10 +7,14 @@ internal class Program
     {
         Console.WriteLine("Hello, World!");
 
-
+        /*
         string line = Console.ReadLine();
         string[] argsLine = new string[] { line };
         Flips.MainExecute(argsLine);
+        */
+
+        Evaluate.MainExecute(args);
+
     }
 
 

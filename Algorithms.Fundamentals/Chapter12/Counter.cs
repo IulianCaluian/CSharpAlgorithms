@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.Metrics;
 using System.Reflection;
 
-namespace Algorithms.Fundamentals
+namespace Algorithms.Fundamentals.Chapter12
 {
     public interface ICounter
     {
@@ -15,7 +15,7 @@ namespace Algorithms.Fundamentals
         /// </summary>
         /// <returns></returns>
         int Tally();
-        
+
     }
     public class Counter : ICounter
     {

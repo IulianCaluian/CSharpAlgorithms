@@ -11,6 +11,7 @@ namespace Algorithms.Fundamentals.Chapter13
         {
             Stack<String> ops = new Stack<String>();
             Stack<Double> vals = new Stack<Double>();
+
             do
             {
                 string? s = Console.ReadLine();

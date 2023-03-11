@@ -22,7 +22,22 @@ namespace Algorithms.Fundamentals.Chapter41
             }
         }
 
-        // public Graph(Stream inputStream) { }
+        public Graph(StreamReader inputStream) : this(Int32.Parse(inputStream.ReadLine()))
+        {
+
+            int E = Int32.Parse(inputStream.ReadLine()); // Read E.
+            for (int i = 0; i < E; i++)
+            { // Add an edge.
+
+                string line = inputStream.ReadLine();
+
+                string[] strs = line.Split(" ");
+
+                int v = Int32.Parse(strs[0]); // Read a vertex,
+                int w = Int32.Parse(strs[1]); // read another vertex,
+                addEdge(v, w); // and add edge connecting them.
+            }
+        }
 
         public void addEdge(int v, int w)
         {

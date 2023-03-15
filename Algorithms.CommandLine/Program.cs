@@ -1,5 +1,6 @@
 ﻿using Algorithms.Fundamentals.Chapter12;
 using Algorithms.Fundamentals.Chapter13;
+using Algorithms.Fundamentals.Chapter41;
 
 internal class Program
 {
@@ -13,7 +14,9 @@ internal class Program
         Flips.MainExecute(argsLine);
         */
 
-        Evaluate.MainExecute(args);
+        // Evaluate.MainExecute(args);
+
+        TestSearch.MainExecute(new string[] { "Chapter41/tinyG.txt", "9" });
 
     }
 

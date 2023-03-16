@@ -16,8 +16,8 @@ internal class Program
 
         // Evaluate.MainExecute(args);
 
-        TestSearch.MainExecute(new string[] { "Chapter41/tinyG.txt", "9" });
-
+        // TestSearch.MainExecute(new string[] { "Chapter41/tinyG.txt", "9" });
+        TestCC.MainExecute(new string[] { "Chapter41/tinyG.txt", "9" });
     }
 
 

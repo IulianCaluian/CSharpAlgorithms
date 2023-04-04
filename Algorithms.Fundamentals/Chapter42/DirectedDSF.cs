@@ -13,14 +13,14 @@ namespace Algorithms.Fundamentals.Chapter42
         private bool[] marked; // Has dfs() been called for this vertex?
         private int[] edgeTo; // last vertex on known path to this vertex
         private readonly int s; // source
-        public DepthFirstPaths(Graph G, int s)
+        public DirectedDSF(Digraph G, int s)
         {
             marked = new bool[G.V];
             edgeTo = new int[G.V];
             this.s = s;
             dfs(G, s);
         }
-        private void dfs(Graph G, int v)
+        private void dfs(Digraph G, int v)
         {
             marked[v] = true;
             foreach (int w in G.adj(v))
